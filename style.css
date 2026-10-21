@@ -1,0 +1,185 @@
+:root {
+    --bg-color: #0c0817;
+    --card-bg: #17112a;
+    --purple-neon: #9d4edd;
+    --gold-neon: #ffb703;
+    --text-color: #f8f9fa;
+    --accent-blue: #00f5d4;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #241349, #0c0817);
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 4px solid var(--purple-neon);
+    box-shadow: 0 4px 25px rgba(157, 78, 221, 0.4);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--gold-neon);
+    text-shadow: 2px 2px 15px rgba(255, 183, 3, 0.6);
+}
+
+header p {
+    margin-top: 12px;
+    font-size: 1.2em;
+    color: #c77dff;
+}
+
+.container {
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    color: var(--purple-neon);
+    margin-bottom: 25px;
+}
+
+.section-title-alt {
+    color: var(--accent-blue);
+    margin-bottom: 15px;
+}
+
+/* Tabela Comparativa */
+.table-container {
+    overflow-x: auto;
+    margin-bottom: 40px;
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid rgba(157, 78, 221, 0.3);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+th {
+    color: var(--gold-neon);
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.gold-text {
+    color: var(--gold-neon);
+    font-weight: bold;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+/* Cards dos Stands */
+.stand-card {
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-left: 8px solid var(--purple-neon);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stand-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(157, 78, 221, 0.4);
+}
+
+.stand-card.top1 {
+    border-left-color: var(--gold-neon);
+    background: linear-gradient(145deg, #17112a, #21133a);
+}
+
+.rank {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: var(--gold-neon);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.stand-title {
+    font-size: 2.2em;
+    margin: 0 0 8px 0;
+    color: #ffffff;
+}
+
+.user-name {
+    font-style: italic;
+    color: #b388ff;
+    margin-bottom: 15px;
+    display: block;
+    font-size: 1.1em;
+}
+
+.ability-box {
+    background-color: rgba(255, 255, 255, 0.04);
+    padding: 20px;
+    border-radius: 8px;
+    border-top: 2px solid var(--purple-neon);
+    line-height: 1.6;
+}
+
+.stand-card.top1 .ability-box {
+    border-top-color: var(--gold-neon);
+}
+
+/* Sistema de Votação Interativo */
+.vote-section {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.vote-btn {
+    background-color: transparent;
+    color: var(--accent-blue);
+    border: 2px solid var(--accent-blue);
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.vote-btn:hover {
+    background-color: var(--accent-blue);
+    color: var(--bg-color);
+    box-shadow: 0 0 10px rgba(0, 245, 212, 0.5);
+}
+
+.vote-count {
+    font-size: 0.9em;
+    color: #a5a1b8;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    color: #7b2cbf;
+    font-size: 1em;
+    border-top: 1px solid #241349;
+}

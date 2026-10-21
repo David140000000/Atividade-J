@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoJo's Bizarre Adventure - Top 5 Stands</title>
+    <!-- Esta linha abaixo conecta o seu arquivo HTML ao arquivo CSS separado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Os 5 Stands Mais Poderosos de JoJo</h1>
+        <p>A elite absoluta do poder e da quebra da realidade</p>
+    </header>
+
+    <div class="container">
+
+        <!-- TABELA DE ATRIBUTOS -->
+        <h2 class="section-title-alt">Resumo dos Atributos</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Stand</th>
+                        <th>Usuário</th>
+                        <th>Habilidade Principal</th>
+                        <th>Tipo de Poder</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="gold-text">The World Over Heaven</td>
+                        <td>Heaven Ascension DIO</td>
+                        <td>Reescrita da Realidade</td>
+                        <td>Absoluto / Onipotência Teórica</td>
+                    </tr>
+                    <tr>
+                        <td class="bold-text">Gold Experience Requiem</td>
+                        <td>Giorno Giovanna</td>
+                        <td>Retorno ao Zero</td>
+                        <td>Negação Absoluta / Defesa Invencível</td>
+                    </tr>
+                    <tr>
+                        <td class="bold-text">Wonder of U</td>
+                        <td>Toru</td>
+                        <td>Fluxo da Calamidade</td>
+                        <td>Manipulação de Causalidade Lógica</td>
+                    </tr>
+                    <tr>
+                        <td class="bold-text">D4C: Love Train</td>
+                        <td>Funny Valentine</td>
+                        <td>Redirecionamento de Azar</td>
+                        <td>Barreira Dimensional Absoluta</td>
+                    </tr>
+                    <tr>
+                        <td class="bold-text">Made in Heaven</td>
+                        <td>Enrico Pucci</td>
+                        <td>Aceleração do Tempo</td>
+                        <td>Velocidade Infinita / Reset Universal</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 class="section-title">Análise Detalhada</h2>
+
+        <!-- #1 THE WORLD OVER HEAVEN -->
+        <div class="stand-card top1">
+            <span class="rank">#1 O Ápice da Existência (Jogos)</span>
+            <h2 class="stand-title">The World Over Heaven</h2>
+            <span class="user-name">Usuário: Heaven Ascension DIO (Eyes of Heaven)</span>
+            <div class="ability-box">
+                <p><strong>Habilidade Suprema: Reescrita da Realidade.</strong> Este Stand quebra qualquer lógica existente. Ao golpear algo com seus punhos, ele ganha o poder de alterar e reescrever as regras do universo. Pode anular os efeitos de outros Stands absolutos (como o GER), ressuscitar mortos de forma ilimitada, curar qualquer dano e apagar inimigos da história.</p>
+                <div class="vote-section">
+                    <button class="vote-btn" onclick="vote('twoh')">Muda! Votar</button>
+                    <span class="vote-count" id="count-twoh">0 votos</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- #2 GOLD EXPERIENCE REQUIEM -->
+        <div class="stand-card">
+            <span class="rank">#2 O Rei do Canon</span>
+            <h2 class="stand-title">Gold Experience Requiem (GER)</h2>
+            <span class="user-name">Usuário: Giorno Giovanna (Parte 5: Vento Aureo)</span>
+            <div class="ability-box">
+                <p><strong>Habilidade Suprema: Retorno ao Zero.</strong> Opera de forma independente da vontade de Giorno para garantir sua segurança total. O GER simplesmente anula a "causa" de qualquer ação ou ataque direcionado a ele, reduzindo o esforço do oponente a zero absoluto. Se o inimigo for derrotado por ele, ficará preso em uma espiral eterna de mortes infinitas.</p>
+                <div class="vote-section">
+                    <button class="vote-btn" onclick="vote('ger')">Muda! Votar</button>
+                    <span class="vote-count" id="count-ger">0 votos</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- #3 WONDER OF U -->
+        <div class="stand-card">
+            <span class="rank">#3</span>
+            <h2 class="stand-title">Wonder of U</h2>
+            <span class="user-name">Usuário: Toru (Parte 8: JoJolion)</span>
+            <div class="ability-box">
+                <p><strong>Habilidade Suprema: Fluxo da Calamidade.</strong> A própria personificação das leis do azar e do destino. Qualquer criatura viva que tente perseguir, atacar ou mesmo cogitar investigar a identidade secreta do usuário é imediatamente caçada por "calamidades". Leis da física se distorcem ao redor do alvo, transformando poças d'água ou insetos em armas letais de impacto infinito.</p>
+                <div class="vote-section">
+                    <button class="vote-btn" onclick="vote('wou')">Votar</button>
+                    <span class="vote-count" id="count-wou">0 votos</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- #4 D4C LOVE TRAIN -->
+        <div class="stand-card">
+            <span class="rank">#4</span>
+            <h2 class="stand-title">D4C Love Train</h2>
+            <span class="user-name">Usuário: Funny Valentine (Parte 7: Steel Ball Run)</span>
+            <div class="ability-box">
+                <p><strong>Habilidade Suprema: Barreira Dimensional de Sorte.</strong> Utilizando os poderes das Partes do Cadáver Sagrado, o D4C cria uma fenda luminosa dimensional oculta. Qualquer ataque, infortúnio, dano ou azar desferido contra Valentine bate nessa parede de luz e é enviado instantaneamente para qualquer outro lugar da Terra na forma de azar para outra pessoa.</p>
+                <div class="vote-section">
+                    <button class="vote-btn" onclick="vote('lovetrain')">Dojyaaan! Votar</button>
+                    <span class="vote-count" id="count-lovetrain">0 votos</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- #5 MADE IN HEAVEN -->
+        <div class="stand-card">
+            <span class="rank">#5</span>
+            <h2 class="stand-title">Made in Heaven</h2>
+            <span class="user-name">Usuário: Enrico Pucci (Parte 6: Stone Ocean)</span>
+            <div class="ability-box">
+                <p><strong>Habilidade Suprema: Aceleração Infinita do Tempo.</strong> Controlando as forças da gravidade de todo o universo, Pucci acelera o fluxo temporal de forma contínua e exponencial. Apenas ele consegue acompanhar esse ritmo, movendo-se a velocidades teoricamente infinitas. O ápice do poder gera um colapso gravitacional que reinicia a própria realidade.</p>
+                <div class="vote-section">
+                    <button class="vote-btn" onclick="vote('mih')">Votar</button>
+                    <span class="vote-count" id="count-mih">0 votos</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Site de fã para fãs. Realidade reescrita com sucesso! 🌌</p>
+    </footer>
+
+    <!-- Esta linha abaixo conecta o seu HTML ao script.js que criamos antes -->
+    <script src="script.js"></script>
+</body>
+</html>
